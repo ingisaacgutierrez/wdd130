@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Source+Sans+Pro:wght@600&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 22px;
    }
 nav a {
     text-align: center;
     color:#00a6fb;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -15,6 +20,7 @@ nav a {
   }
 main section {
     text-align: center;
+    box-sizing: border-box;
   }
 #background {
     height: 725px;
@@ -23,8 +29,16 @@ main section {
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 body {
     background-color:#fcfbfb; 
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 header {
     background-color:#064635;
@@ -36,6 +50,10 @@ nav a:hover {
 .book, .join {
     color:#064635;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#59a96a;
@@ -44,10 +62,15 @@ nav a:hover {
 .msg {
     background-color: #00a6fb ;
     color:#064635; 
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 footer {
     background-color: #e8c547;
     color:#064635; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #064635;
@@ -59,18 +82,25 @@ footer a:hover{
 }
 .home-title{
     color:#064635; 
+    font-family: "Macondo",'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color:#396E94;
 }
 .msg h2{
     color:#064635; 
+    font-family: "Macondo";
 }
 .msg p{
     color:#064635; 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -78,6 +108,18 @@ h4 {
 footer p {
     font-size: 1.2em;
 }
+footer .social img {
+    padding-top: 15px;
+}
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #00a6fb;;
+}
+.mountains{
+    margin-top: 200px;
+}
