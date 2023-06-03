@@ -53,6 +53,7 @@ nav a:hover {
     color: #e8c547;
 }
 .book, .join {
+    background-color: #e8c547;
     color:#064635;
     text-decoration: none;
     font-size: 18px;
@@ -158,9 +159,6 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-}
-.book {
-    color: white;
 }
 .card-img, .mountains {
     width: 100%;
