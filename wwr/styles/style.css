@@ -254,10 +254,10 @@ nav {
     margin-top: 200px; 
     margin-bottom: 20px;
     margin-right: 50px;
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 10px;
     align-items: center;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 10px 10px 15px #064635;
     background-color: #e8c547;
 }
 .canyon-img{
@@ -269,7 +269,7 @@ nav {
     padding: 10px;
     background-color: #00a6fb;
     align-items: center;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 10px 10px 15px #e8c547;
     align-items:center;
 }
 
@@ -279,7 +279,7 @@ nav {
     margin-top: 250px; 
     margin-bottom: 20px;
     margin-right: 50px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-align: justify;
 }
 
@@ -287,19 +287,22 @@ nav {
     color:#064635; 
     font-family: "Macondo",'Bradley Hand', sans-serif;
 }
+
 .grandcanyon-img{
     border: #e8c547 5px solid;
     grid-column: 1; 
     grid-row: 3; 
     margin-top: 200px; 
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
     padding: 10px;
     background-color: #064635;
     align-items: center;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #00a6fb;
+    
 }
+
 .grandcanyon-card{
     grid-column: 2; 
     grid-row: 3; 
