@@ -228,4 +228,107 @@ nav {
         margin-top: 25px;
     }
 }
-       
+
+/* Here Start the CSS code for Rivers.html*/
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.salmonriver-card{
+    grid-column: 2; 
+    grid-row: 1; 
+    margin-top: 170px; 
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.salmonriver-card h2{
+    color:#064635; 
+    font-family: "Macondo",'Bradley Hand', sans-serif;
+}
+.salmonriver-img{
+    border: #00a6fb 5px solid;
+    grid-column: 1; 
+    grid-row: 1; 
+    margin-top: 200px; 
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #e8c547;
+}
+.canyon-img{
+    border: #064635 5px solid;
+    grid-column: 2; 
+    grid-row: 2; 
+    margin-top: 200px; 
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #00a6fb;
+    align-items: center;
+    box-shadow: 5px 5px 10px #6f7364;
+    align-items:center;
+}
+
+.canyon-card{
+    grid-column: 1; 
+    grid-row: 2; 
+    margin-top: 250px; 
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.canyon-card h2{
+    color:#064635; 
+    font-family: "Macondo",'Bradley Hand', sans-serif;
+}
+.grandcanyon-img{
+    border: #e8c547 5px solid;
+    grid-column: 1; 
+    grid-row: 3; 
+    margin-top: 200px; 
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #064635;
+    align-items: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.grandcanyon-card{
+    grid-column: 2; 
+    grid-row: 3; 
+    margin-top: 250px; 
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    text-align: justify;
+
+}
+
+.grandcanyon-card h2{
+    color:#064635; 
+    font-family: "Macondo",'Bradley Hand', sans-serif;
+}
+
+#herorivers-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#herorivers-msg h1, #herorivers-msg h4 {
+    text-align: center;
+    color: #064635;
+
+}
+.home-titlerivers{
+    color:#064635; 
+    font-family: "Macondo",'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
