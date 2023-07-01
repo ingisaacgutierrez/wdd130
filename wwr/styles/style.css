@@ -65,16 +65,7 @@ nav a:hover {
     background-color:#59a96a;
     color: #fcfbfb;
 }
-.msg {
-    background-color: #00a6fb ;
-    color:#064635; 
-    line-height: 1.5em;
-    padding: 35px;
-    margin-top: 200px;
-    grid-column: 6/10;
-    grid-row: 5/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 footer {
     background-color: #e8c547;
     color:#064635; 
