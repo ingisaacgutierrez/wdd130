@@ -50,8 +50,46 @@
             <img class="mario-img" src="images/supermarioodyssey.jpg" alt="Super Mario Odyssey" style="width:221px">
             <h4>Super Mario Odyssey</h4>
         </section>
+            <!-- Display the countdown timer in an element -->
+        
+        <p class="timermsg">The next stream starting on </p>
+        <p id="demo"></p>
+        <div class='go-box'>
+            <a class='go' href="https://twitch.tv/zackplaying">Go to chat</a>
+        </div>
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jul 20, 2023 17:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+        </script>
         
     </main>
+
 <footer>
     <div id="social">
         <section id="block1"> 
@@ -81,7 +119,6 @@
             
         </section>
     </div>
-    
 </footer>
 </div>
 </body>
