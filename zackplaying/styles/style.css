@@ -314,11 +314,16 @@ footer a:hover{
 .valorant-img{
     margin-top: 50px;
 }
+.valorant-card h6{
+    margin-top: -2px;
+    font-family:"Playfair Display", sans-serif; 
+    text-align:center;
+}
 
 .valorant-card p{
     margin-top: 75px;
     font-family:"Playfair Display", sans-serif; 
     text-align:justify;
     padding-inline: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
