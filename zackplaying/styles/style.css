@@ -150,14 +150,16 @@ footer a:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .msg {
-    background-color: #6f52d9;
-    color:white; 
+    
+    color:black; 
     line-height: 1.5em;
-    padding: 35px;
+    padding: 30px;
     grid-column: 1/span 10;
     grid-row: 1/2;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 10px 20px 20px #6f52d9;
     margin-top: -150px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 .msg h2{
     font-family: "Sedgwick Ave Display", "Playfair Display", sans-serif;
@@ -175,18 +177,44 @@ footer a:hover{
 }
 .fornite-card, .zelda-card, .mario-card{
     margin: 200px 0;
+    font-family:  "Playfair Display", sans-serif;
+    font-size: larger;
 }
 .fornite-card{
     grid-column: 2/4;
     grid-row: 2/3;
 }
+.fornite-card img{
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3e1bbf; 
+}
+.fornite-card img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
 .zelda-card{
     grid-column: 5/7;
     grid-row: 2/3;
 }  
+.zelda-card img{
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3e1bbf; 
+}
+.zelda-card img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
 .mario-card{
     grid-column: 8/10;
     grid-row: 2/3;
+}
+.mario-card img{
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3e1bbf; 
+}
+.mario-card img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 #demo{
     grid-column: 5/7 span;
@@ -317,7 +345,6 @@ footer a:hover{
 .valorant-card h6{
     margin-top: -2px;
     font-family:"Playfair Display", sans-serif; 
-    text-align:center;
 }
 
 .valorant-card p{
